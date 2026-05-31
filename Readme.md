@@ -4,21 +4,21 @@
 
 # 目录结构
 
-├─51	# 51单片机工程模板源码  
-│  └─STC89C52RC  
+├─51&nbsp;&nbsp;&nbsp;&nbsp;# 51单片机工程模板源码  
+│&nbsp;&nbsp;&nbsp;&nbsp;└─STC89C52RC  
 │  
-├─STM32	# STM32工程模板源码  
-│  ├─STM32F103C8T6  
-│  ├─STM32F103RCT6  
-│  └─STM32F407VET6  
+├─STM32&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# STM32工程模板源码  
+│&nbsp;&nbsp;&nbsp;&nbsp;├─STM32F103C8T6  
+│&nbsp;&nbsp;&nbsp;&nbsp;├─STM32F103RCT6  
+│&nbsp;&nbsp;&nbsp;&nbsp;└─STM32F407VET6  
 │  
-└─Template-EIDE	# EIDE模板  
-    ├─51  
-      └─STC89C52RC.ept  
-    └─STM32  
-      ├─STM32F103C8T6.ept  
-      ├─STM32F103RCT6.ept  
-      └─STM32F407VET6.ept  
+└─Template-EIDE&nbsp;&nbsp;&nbsp;&nbsp;# EIDE模板  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─51  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─STC89C52RC.ept  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─STM32  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─STM32F103C8T6.ept  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─STM32F103RCT6.ept  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─STM32F407VET6.ept  
 
 # 使用说明
 
