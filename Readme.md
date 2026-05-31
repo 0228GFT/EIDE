@@ -13,8 +13,8 @@
 │&nbsp;&nbsp;&nbsp;&nbsp;└─STM32F407VET6  
 │  
 └─Template-EIDE&nbsp;&nbsp;&nbsp;&nbsp;# EIDE模板  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─51  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─STC89C52RC.ept  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─51  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└─STC89C52RC.ept  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─STM32  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─STM32F103C8T6.ept  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─STM32F103RCT6.ept  
