@@ -10,7 +10,7 @@
 ##### Core
 
 - Core:ARM Cortex-M3
-- Pins:64
+- Pins:48
 - Clock:72MHz
 - RAM:20KB
 - Flash:64KB
