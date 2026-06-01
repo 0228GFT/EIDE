@@ -1,0 +1,417 @@
+version: "4.1"
+name: STM32F103RCT6-FreeRTOS
+type: ARM
+deviceName: STM32F103RC
+packDir: .pack/Keil/STM32F1xx_DFP.2.4.1
+srcDirs:
+  - Project
+virtualFolder:
+  name: <virtual_root>
+  files: []
+  folders:
+    - name: <deps>
+      files:
+        - path: RTE_Components.h
+      folders:
+        - name: STM32F1xx_DFP
+          files: []
+          folders:
+            - name: Startup
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/RTE_Driver/Config/RTE_Device.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/Source/ARM/startup_stm32f10x_hd.s
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/Source/system_stm32f10x.c
+              folders: []
+            - name: StdPeriphDrivers.ADC
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_adc.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_adc.c
+              folders: []
+            - name: StdPeriphDrivers.BKP
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_bkp.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_bkp.c
+              folders: []
+            - name: StdPeriphDrivers.CAN
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_can.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_can.c
+              folders: []
+            - name: StdPeriphDrivers.CEC
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_cec.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_cec.c
+              folders: []
+            - name: StdPeriphDrivers.CRC
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_crc.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_crc.c
+              folders: []
+            - name: StdPeriphDrivers.DAC
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_dac.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_dac.c
+              folders: []
+            - name: StdPeriphDrivers.DBGMCU
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_dbgmcu.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_dbgmcu.c
+              folders: []
+            - name: StdPeriphDrivers.DMA
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_dma.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_dma.c
+              folders: []
+            - name: StdPeriphDrivers.EXTI
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_exti.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_exti.c
+              folders: []
+            - name: StdPeriphDrivers.Flash
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_flash.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_flash.c
+              folders: []
+            - name: StdPeriphDrivers.Framework
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/misc.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/misc.c
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/templates/stm32f10x_conf.h
+              folders: []
+            - name: StdPeriphDrivers.FSMC
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_fsmc.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_fsmc.c
+              folders: []
+            - name: StdPeriphDrivers.GPIO
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_gpio.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_gpio.c
+              folders: []
+            - name: StdPeriphDrivers.I2C
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_i2c.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_i2c.c
+              folders: []
+            - name: StdPeriphDrivers.IWDG
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_iwdg.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_iwdg.c
+              folders: []
+            - name: StdPeriphDrivers.PWR
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_pwr.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_pwr.c
+              folders: []
+            - name: StdPeriphDrivers.RCC
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_rcc.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c
+              folders: []
+            - name: StdPeriphDrivers.RTC
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_rtc.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rtc.c
+              folders: []
+            - name: StdPeriphDrivers.SDIO
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_sdio.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_sdio.c
+              folders: []
+            - name: StdPeriphDrivers.SPI
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_spi.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_spi.c
+              folders: []
+            - name: StdPeriphDrivers.TIM
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_tim.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c
+              folders: []
+            - name: StdPeriphDrivers.USART
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_usart.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c
+              folders: []
+            - name: StdPeriphDrivers.WWDG
+              files:
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc/stm32f10x_wwdg.h
+                - path: .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/src/stm32f10x_wwdg.c
+              folders: []
+dependenceList:
+  - depList:
+      - name: Startup
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/Include
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/RTE_Driver/Config
+        libList: []
+      - name: StdPeriphDrivers.Framework
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.RCC
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.ADC
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.BKP
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.CAN
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.CEC
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.CRC
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.DAC
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.DBGMCU
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.DMA
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.EXTI
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.Flash
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.FSMC
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.GPIO
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.I2C
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.IWDG
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.PWR
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.RTC
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.SDIO
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.SPI
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.TIM
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.USART
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+      - name: StdPeriphDrivers.WWDG
+        defineList: []
+        incList:
+          - .pack/Keil/STM32F1xx_DFP.2.4.1/Device/StdPeriph_Driver/inc
+        libList: []
+    groupName: STM32F1xx_DFP
+outDir: build
+miscInfo:
+  uid: b4dd62a67edba20b4d3d0b1032858009
+targets:
+  Debug:
+    cppPreprocessAttrs:
+      defineList:
+        - STM32F10X_HD
+        - USE_STDPERIPH_DRIVER
+      incList:
+        - .
+      libList: []
+    excludeList:
+      - Project/APP/FreeRTOS/Port/heap_1.c
+      - Project/APP/FreeRTOS/Port/heap_2.c
+      - Project/APP/FreeRTOS/Port/heap_3.c
+      - Project/APP/FreeRTOS/Port/heap_5.c
+      - Project/APP/FreeRTOS-Kernel/portable/ARMClang
+      - Project/APP/FreeRTOS-Kernel/portable/ARMv8M
+      - Project/APP/FreeRTOS-Kernel/portable/BCC
+      - Project/APP/FreeRTOS-Kernel/portable/CCRH
+      - Project/APP/FreeRTOS-Kernel/portable/CCS
+      - Project/APP/FreeRTOS-Kernel/portable/CodeWarrior
+      - Project/APP/FreeRTOS-Kernel/portable/Common
+      - Project/APP/FreeRTOS-Kernel/portable/GCC
+      - Project/APP/FreeRTOS-Kernel/portable/IAR
+      - Project/APP/FreeRTOS-Kernel/portable/Keil
+      - Project/APP/FreeRTOS-Kernel/portable/MikroC
+      - Project/APP/FreeRTOS-Kernel/portable/MPLAB
+      - Project/APP/FreeRTOS-Kernel/portable/MSVC-MingW
+      - Project/APP/FreeRTOS-Kernel/portable/oWatcom
+      - Project/APP/FreeRTOS-Kernel/portable/Paradigm
+      - Project/APP/FreeRTOS-Kernel/portable/Renesas
+      - Project/APP/FreeRTOS-Kernel/portable/Rowley
+      - Project/APP/FreeRTOS-Kernel/portable/SDCC
+      - Project/APP/FreeRTOS-Kernel/portable/Softune
+      - Project/APP/FreeRTOS-Kernel/portable/Tasking
+      - Project/APP/FreeRTOS-Kernel/portable/template
+      - Project/APP/FreeRTOS-Kernel/portable/ThirdParty
+      - Project/APP/FreeRTOS-Kernel/portable/WizC
+      - Project/APP/FreeRTOS-Kernel/portable/RVDS/ARM_CM7
+      - Project/APP/FreeRTOS-Kernel/portable/RVDS/ARM_CM4_MPU
+      - Project/APP/FreeRTOS-Kernel/portable/RVDS/ARM_CM4F
+      - Project/APP/FreeRTOS-Kernel/portable/RVDS/ARM_CM0
+      - Project/APP/FreeRTOS-Kernel/portable/RVDS/ARM_CA9
+      - Project/APP/FreeRTOS-Kernel/portable/RVDS/ARM7_LPC21xx
+      - Project/APP/FreeRTOS-Kernel/portable/MemMang/heap_1.c
+      - Project/APP/FreeRTOS-Kernel/portable/MemMang/heap_2.c
+      - Project/APP/FreeRTOS-Kernel/portable/MemMang/heap_3.c
+      - Project/APP/FreeRTOS-Kernel/portable/MemMang/heap_5.c
+      - Project/APP/FreeRTOS-Kernel/examples/coverity
+      - Project/APP/FreeRTOS-Kernel/examples/cmake_example
+      - Project/APP/FreeRTOS-Kernel/Portable/heap_1.c
+      - Project/APP/FreeRTOS-Kernel/Portable/heap_2.c
+      - Project/APP/FreeRTOS-Kernel/Portable/heap_3.c
+      - Project/APP/FreeRTOS-Kernel/Portable/heap_5.c
+    settings:
+      debugger: cortex-debug
+    toolchain: AC5
+    toolchainConfigMap:
+      AC5:
+        archExtensions: ""
+        cpuType: Cortex-M3
+        floatingPointHardware: none
+        options:
+          version: 4
+          afterBuildTasks: []
+          asm-compiler: {}
+          beforeBuildTasks: []
+          c/cpp-compiler:
+            CXX_FLAGS: --no-multibyte-chars
+            C_FLAGS: --no-multibyte-chars
+            c99-mode: true
+            one-elf-section-per-function: true
+            optimization: level-3
+            warnings: unspecified
+          global:
+            output-debug-info: enable
+            use-microLIB: true
+          linker:
+            output-format: elf
+        scatterFilePath: <YOUR_SCATTER_FILE>.sct
+        storageLayout:
+          RAM:
+            - id: 1
+              isChecked: true
+              mem:
+                size: "0xC000"
+                startAddr: "0x20000000"
+              noInit: false
+              tag: IRAM
+          ROM:
+            - id: 1
+              isChecked: true
+              isStartup: true
+              mem:
+                size: "0x40000"
+                startAddr: "0x08000000"
+              tag: IROM
+        useCustomScatterFile: false
+      GCC:
+        archExtensions: ""
+        cpuType: Cortex-M3
+        floatingPointHardware: none
+        options:
+          version: 5
+          afterBuildTasks: []
+          asm-compiler:
+            ASM_FLAGS: ""
+          beforeBuildTasks: []
+          c/cpp-compiler:
+            CXX_FLAGS: ""
+            C_FLAGS: ""
+            language-c: c11
+            language-cpp: c++11
+            one-elf-section-per-data: true
+            one-elf-section-per-function: true
+            optimization: level-debug
+            warnings: all-warnings
+          global:
+            $float-abi-type: hard
+            misc-control: ""
+            not-use-syscalls: true
+            output-debug-info: enable
+            use-newlib-nano: true
+          linker:
+            $outputTaskExcludes:
+              - .bin
+            LD_FLAGS: ""
+            LIB_FLAGS: -lm
+            output-format: elf
+            remove-unused-input-sections: true
+        scatterFilePath: <YOUR_LINKER_SCRIPT>.lds
+        storageLayout:
+          RAM: []
+          ROM: []
+        useCustomScatterFile: true
+    uploadConfigMap:
+      JLink:
+        baseAddr: ""
+        bin: ""
+        cpuInfo:
+          cpuName: "null"
+          vendor: "null"
+        otherCmds: ""
+        proType: 1
+        speed: 8000
+      OpenOCD:
+        baseAddr: "0x08000000"
+        bin: ""
+        interface: cmsis-dap
+        target: stm32f1x
+    uploader: OpenOCD

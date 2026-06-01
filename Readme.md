@@ -10,6 +10,7 @@
 ├─STM32&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# STM32工程模板源码  
 │&nbsp;&nbsp;&nbsp;&nbsp;├─STM32F103C8T6  
 │&nbsp;&nbsp;&nbsp;&nbsp;├─STM32F103RCT6  
+│&nbsp;&nbsp;&nbsp;&nbsp;├─STM32F103RCT6-FreeRTOS  
 │&nbsp;&nbsp;&nbsp;&nbsp;└─STM32F407VET6  
 │  
 └─Template-EIDE&nbsp;&nbsp;&nbsp;&nbsp;# EIDE模板  
@@ -18,6 +19,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─STM32  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─STM32F103C8T6.ept  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─STM32F103RCT6.ept  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─STM32F103RCT6-FreeRTOS.ept  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─STM32F407VET6.ept  
 
 # 使用说明
