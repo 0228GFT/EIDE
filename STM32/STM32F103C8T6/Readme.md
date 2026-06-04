@@ -60,27 +60,6 @@ STM32F103C8T6
    │  stm32f10x_it.h  
    │  
    ├─BSP	# 硬件抽象层  
-   │  ├─AD  
-   │  │  AD.c  
-   │  │  AD.h  
-   │  │  
-   │  ├─Key  
-   │  │  Key.c  
-   │  │  Key.h  
-   │  │  
-   │  ├─OLED  
-   │  │  OLED.c  
-   │  │  OLED.h  
-   │  │  OLED_Data.c  
-   │  │  OLED_Data.h  
-   │  │  
-   │  ├─Timer  
-   │  │  Timer.c  
-   │  │  Timer.h  
-   │  │  
-   │  └─Uart  
-   │     Uart.c  
-   │     Uart.h  
    │  
    ├─Libraries	# 库文件  
    │  ├─Board	# 板级文件  
@@ -92,13 +71,6 @@ STM32F103C8T6
    │     core_cm3.h  
    │  
    └─Moudle	# 软件层  
-      ├─Filter	# 滤波器  
-      │  Filter.c  
-      │  Filter.h  
-      │  
-      └─PID	# PID控制  
-         PID.c  
-         PID.h  
 
 # 备注
 

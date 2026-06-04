@@ -3,6 +3,8 @@
 
 #include "stm32f10x.h"
 
+// 注: 位操作不适用于开漏输出
+
 #define BIT_ADDR(Addr, Bit_Num) *((volatile uint32_t *)(0x42000000 + ((Addr - 0x40000000) * 32) + (Bit_Num * 4)))
 
 #define GPIOA_ODR_ADDR          (GPIOA_BASE + 12) // 0x40000000 + 0x10000 + 0x0800 + 0x0C
